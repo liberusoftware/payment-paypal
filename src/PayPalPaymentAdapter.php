@@ -34,6 +34,7 @@ use Liberu\Payment\Contracts\DTOs\RefundPaymentCommand;
 use Liberu\Payment\Contracts\DTOs\SettlementQueryDto;
 use Liberu\Payment\Contracts\DTOs\SubmitDisputeEvidenceCommand;
 use Liberu\Payment\Contracts\DTOs\VaultedPaymentMethodDto;
+use Liberu\Payment\Contracts\DTOs\VoidPaymentCommand;
 use Liberu\Payment\Contracts\Enums\PaymentLifecycleState;
 
 final readonly class PayPalPaymentAdapter implements
